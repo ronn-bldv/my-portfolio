@@ -1,11 +1,17 @@
 import { ArrowRight, Github } from "lucide-react"
+import project1Image from '../assets/images/project1.png';
+import project2Image from '../assets/images/project2.png';
+import project3Image from '../assets/images/project3.png';
+import project4Image from '../assets/images/project4.png';
+import project5Image from '../assets/images/project5.png';
+import project6Image from '../assets/images/project6.png';
 
 const projects = [
     {
         id: 1,
         title: "A Static E-Comemerce Website",
         description: "This project was about a homemade accessories made using beads and yarns. This project was created as a final requirement for INTECH 2100: WEB DESIGN AND MULTIMEDIA subject using HTML, CSS and a little bit of JavaScript.",
-        image: "/projects/project1.png",
+        image: project1Image,
         tags: ["HTML", "CSS", "Static Website"],
         githubURL: "https://github.com/ronn-bldv/restausim",
     },
@@ -14,7 +20,7 @@ const projects = [
         id: 2,
         title: "Portfolio using WordPress",
         description: "This project was about creating a personal portfolio website using WordPress. This portfolio was created as my requirement for INTECH 2201: Web Application Development.",
-        image: "/projects/project2.png",
+        image: project2Image,
         tags: ["wordPress", "Portfolio"],
         githubURL: "https://github.com/ronn-bldv/restausim",
     },
@@ -23,7 +29,7 @@ const projects = [
         id: 3,
         title: "Student Management System",
         description: "This system was created as one of my activity in INTECH 2201: Web Application Development. This system is about managing students with functionalities such as adding students as Admin, updating or deleting existing students. ",
-        image: "/projects/project3.png",
+        image: project3Image,
         tags: ["HTML", "CSS", "PHP", "Activity"],
         githubURL: "https://github.com/ronn-bldv/restausim",
     },
@@ -32,7 +38,7 @@ const projects = [
         id: 4,
         title: "Pop'n Lock Kpop Store",
         description: "This projects is about a simple Kpop Store that sells album from different KPop Groups such as Enhypen, BlackPink, Seventeen etc. This project was created as a final term requirement for laboratory subject during my 2nd year student using PHP, MYSQL, HTML, CSS and JavaScript.",
-        image: "/projects/project4.png",
+        image: project4Image,
         tags: ["HTML", "CSS", "E-Commerce", "PHP"],
         githubURL: "https://github.com/ronn-bldv/restausim",
     }, 
@@ -42,7 +48,7 @@ const projects = [
         id: 5,
         title: "BMI Calculator",
         description: "This is one of the activities that we did in our Laboratory Subject. It was created using PHP, HTML and CSS for styling.",
-        image: "/projects/project6.png",
+        image: project6Image,
         tags: ["Activity", "PHP", ],
         githubURL: "https://github.com/ronn-bldv/restausim",
     }, 
@@ -51,7 +57,7 @@ const projects = [
         id: 6,
         title: "RestauSim",
         description: "This is our capstone project, it is about a simulation tool for PoS and Inventory Management System. This system is being used under the Department of Hospitality and Tourism Management for their subject HM 1135 and TM 1135. The TechStack for this, for frontend we use HTML, JavaScript and TailwindCSS, for the backend we use PHP with Laravel as a framework. Currently this is under development. ",
-        image: "/projects/project5.png",
+        image: project5Image,
         tags: ["Capstone", "Laravel", "TailwindCSS"],
         githubURL: "https://github.com/ronn-bldv/restausim",
     }, 
